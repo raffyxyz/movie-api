@@ -34,6 +34,7 @@ Output >>>
     {
       "name": "",
       "poster": "",
+      "link": "",
     }
 ]
 ```
@@ -47,6 +48,9 @@ Output >>>
     {
         "name": "",
         "poster": "",
+        "year": "",
+        "duration": "",
+        "type": "",
     }
 ]
 ```
