@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node lib/api.js",
+    "dev": "nodemon lib/api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,6 +15,7 @@
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
   }
 }
