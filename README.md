@@ -14,19 +14,19 @@
 ## Usage
 ### Use the deployed api
 ```sh
-    https://myflixer-movie-api.cyclic.app/routes
+https://myflixer-movie-api.cyclic.app/routes
 ```
 ### Or clone the repository so you can host it locally or deploy it for personal use.
 ```sh
-    git clone https://github.com/raffyamoguis/movie-api.git
-    npm install
-    npm start || npm run dev
+git clone https://github.com/raffyamoguis/movie-api.git
+npm install
+npm start || npm run dev
 ```
 
 ## Routes
 ### Search Movie
 ```sh
-  myflixer-movie-api/search?keyw=SearchTerm
+myflixer-movie-api/search?keyw=SearchTerm
 ```
 Output >>>
 ```json
@@ -34,6 +34,19 @@ Output >>>
     {
       "name": "",
       "poster": "",
+    }
+]
+```
+### Get Trending movies
+```sh
+myflixer-movie-api/trending-movies
+```
+Output >>>
+```json
+[
+    {
+        "name": "",
+        "poster": "",
     }
 ]
 ```
