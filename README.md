@@ -9,8 +9,6 @@
 
 - [Development](#development)
 
-- [Contribution](#contribution)
-
 ## Usage
 ### Use the deployed api
 ```sh
@@ -135,3 +133,10 @@ Output >>>
 ```
 
 ## Development
+### Routes that in development
+1. getDownloadLink
+2. getStreamingUrlByProvider
+3. getMoviesByCategory
+4. getMoviesByCountry
+
+Im working hard to publish this feature soon :).
