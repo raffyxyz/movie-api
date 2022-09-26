@@ -4,6 +4,8 @@
 ## Table of contents
 
 - [Usage](#usage)
+    - [searchMovie](#search)
+    - [getTrendingMovies](#trending)
 
 - [Routes](#routes)
 
@@ -133,3 +135,5 @@ Output >>>
     }
 ]
 ```
+
+## Development
