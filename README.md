@@ -14,7 +14,7 @@
 ## Usage
 ### Use the deployed api
 ```sh
-https://myflixer-video-api.cyclic.app/routes
+https://myflixer-video-api.cyclic.app/
 ```
 ### Or clone the repository so you can host it locally or deploy it for personal use.
 ```sh
