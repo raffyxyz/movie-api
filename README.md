@@ -14,7 +14,7 @@
 ## Usage
 ### Use the deployed api
 ```sh
-https://myflixer-movie-api.cyclic.app/routes
+https://myflixer-video-api.cyclic.app/routes
 ```
 ### Or clone the repository so you can host it locally or deploy it for personal use.
 ```sh
@@ -26,21 +26,7 @@ npm start || npm run dev
 ## Routes
 ### Search Movie
 ```sh
-myflixer-movie-api/search?keyw=SearchTerm
-```
-Output >>>
-```json
-[
-    {
-      "name": "",
-      "poster": "",
-      "link": "",
-    }
-]
-```
-### Get Trending movies
-```sh
-myflixer-movie-api/trending-movies
+myflixer-video-api/search?keyw=SearchTerm
 ```
 Output >>>
 ```json
@@ -48,9 +34,102 @@ Output >>>
     {
         "name": "",
         "poster": "",
+        "link": "",
+        "quality": "",
         "year": "",
         "duration": "",
-        "type": "",
+        "type": ""
+    }
+]
+```
+### Get Trending movies
+```sh
+myflixer-video-api/trending-movies
+```
+Output >>>
+```json
+[
+    {
+        "name": "",
+        "poster": "",
+        "link": "",
+        "quality": "",
+        "year": "",
+        "duration": "",
+        "type": ""
+    }
+]
+```
+### Get Trending tv shows
+```sh
+myflixer-video-api/trending-tv
+```
+Output >>>
+```json
+[
+    {
+        "name": "",
+        "poster": "",
+        "link": "",
+        "quality": "",
+        "year": "",
+        "duration": "",
+        "type": ""
+    }
+]
+```
+
+### Get Latest Movies
+```sh
+myflixer-video-api/latest-movies
+```
+Output >>>
+```json
+[
+    {
+        "name": "",
+        "poster": "",
+        "link": "",
+        "quality": "",
+        "year": "",
+        "duration": "",
+        "type": ""
+    }
+]
+```
+### Get Latest TV Shows
+```sh
+myflixer-video-api/latest-tv
+```
+Output >>>
+```json
+[
+    {
+        "name": "",
+        "poster": "",
+        "link": "",
+        "quality": "",
+        "year": "",
+        "duration": "",
+        "type": ""
+    }
+]
+```
+### Get Coming Movies
+```sh
+myflixer-video-api/coming-movies
+```
+Output >>>
+```json
+[
+    {
+        "name": "",
+        "poster": "",
+        "link": "",
+        "quality": "",
+        "year": "",
+        "duration": "",
+        "type": ""
     }
 ]
 ```
