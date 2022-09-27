@@ -131,9 +131,9 @@ Output >>>
     }
 ]
 ```
-### Get Movies By Category
+### Get Movies By Genre
 ```sh
-myflixer-video-api/genre/action
+myflixer-video-api/genre/action?page=1
 ```
 Output >>>
 ```json
