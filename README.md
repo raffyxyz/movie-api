@@ -1,5 +1,5 @@
 # movie-api
-### A free movie streaming restful API serving [myflixer.to](https://myflixer.to) 
+### A free api that scrapes movie data from [myflixer.to](https://myflixer.to)
 
 ## Table of contents
 
@@ -113,7 +113,7 @@ Output >>>
     }
 ]
 ```
-### Get Coming Movies
+### Get Coming Soon Movies
 ```sh
 myflixer-video-api/coming-movies
 ```
@@ -131,12 +131,32 @@ Output >>>
     }
 ]
 ```
+### Get Movies By Category
+```sh
+myflixer-video-api/genre/action
+```
+Output >>>
+```json
+[
+    "totalpage": (int)total pagination number,
+    "data": [
+        {
+            "name": "",
+            "poster": "",
+            "link": "",
+            "quality": "",
+            "year": "",
+            "duration": "",
+            "type": ""
+        }
+    ]
+]
+```
 
 ## Development
 ### Routes that in development
 1. getDownloadLink
 2. getStreamingUrlByProvider
-3. getMoviesByCategory
 4. getMoviesByCountry
 
 Im working hard to publish this feature soon :).
