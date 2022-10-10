@@ -134,7 +134,7 @@ Output >>>
 ### Get Movies By Genre
 -Page query is optional if the result have more than one page.
 ```sh
-https://myflixer-video-api.cyclic.app/genre/action?page=1
+https://myflixer-video-api.cyclic.app/genre/:genre?page=1
 ```
 Output >>>
 ```json
@@ -152,6 +152,29 @@ Output >>>
         }
     ]
 ]
+```
+### Get Movies By Country
+-Page query is optional if the result have more than one page.
+```sh
+https://myflixer-video-api.cyclic.app/country/:country?page=1
+```
+Output >>>
+```json
+{
+    "country": "Australia",
+    "totalpage": 31,
+    "data": [
+        {
+            "name": "Sissy",
+            "poster": "https://img.myflixer.to/xxrz/250x400/201/e8/27/e827945c9134a698a992da69549317d0/e827945c9134a698a992da69549317d0.jpg",
+            "link": "sissy-88678",
+            "quality": "HD",
+            "year": "2022",
+            "duration": "102m",
+            "type": "Movie"
+        },
+    ],
+}
 ```
 ### Get Movies Info
 ```sh
