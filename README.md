@@ -24,7 +24,7 @@ npm start || npm run dev
 ## Routes
 ### Search Movie
 ```sh
-myflixer-video-api/search?keyw=SearchTerm
+https://myflixer-video-api.cyclic.app/search?keyw=SearchTerm
 ```
 Output >>>
 ```json
@@ -42,7 +42,7 @@ Output >>>
 ```
 ### Get Trending movies
 ```sh
-myflixer-video-api/trending-movies
+https://myflixer-video-api.cyclic.app/trending-movies
 ```
 Output >>>
 ```json
@@ -60,7 +60,7 @@ Output >>>
 ```
 ### Get Trending tv shows
 ```sh
-myflixer-video-api/trending-tv
+https://myflixer-video-api.cyclic.app/trending-tv
 ```
 Output >>>
 ```json
@@ -79,7 +79,7 @@ Output >>>
 
 ### Get Latest Movies
 ```sh
-myflixer-video-api/latest-movies
+https://myflixer-video-api.cyclic.app/latest-movies
 ```
 Output >>>
 ```json
@@ -97,7 +97,7 @@ Output >>>
 ```
 ### Get Latest TV Shows
 ```sh
-myflixer-video-api/latest-tv
+https://myflixer-video-api.cyclic.app/latest-tv
 ```
 Output >>>
 ```json
@@ -115,7 +115,7 @@ Output >>>
 ```
 ### Get Coming Soon Movies
 ```sh
-myflixer-video-api/coming-movies
+https://myflixer-video-api.cyclic.app/coming-movies
 ```
 Output >>>
 ```json
@@ -132,8 +132,9 @@ Output >>>
 ]
 ```
 ### Get Movies By Genre
+-Page query is optional if the result have more than one page.
 ```sh
-myflixer-video-api/genre/action?page=1
+https://myflixer-video-api.cyclic.app/genre/action?page=1
 ```
 Output >>>
 ```json
@@ -151,6 +152,44 @@ Output >>>
         }
     ]
 ]
+```
+### Get Movies Info
+```sh
+https://myflixer-video-api.cyclic.app/movie/:moviename
+```
+Output >>>
+```json
+{
+    "name": "",
+    "poster": "",
+    "imdb": "",
+    "plot": "",
+    "released": "",
+    "genre": "",
+    "casts": "",
+    "duration": "",
+    "country": "",
+    "production": ""
+}
+```
+### Get TvShow Info
+```sh
+https://myflixer-video-api.cyclic.app/tv/:tvshowname
+```
+Output >>>
+```json
+{
+    "name": "",
+    "poster": "",
+    "imdb": "",
+    "plot": "",
+    "released": "",
+    "genre": "",
+    "casts": "",
+    "duration": "",
+    "country": "",
+    "production": ""
+}
 ```
 
 ## Development
