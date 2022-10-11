@@ -11,6 +11,7 @@
 
 ## Usage
 ### Use the deployed api
+[Deployed api](https://myflixer-video-api.cyclic.app/)
 ```sh
 https://myflixer-video-api.cyclic.app/
 ```
