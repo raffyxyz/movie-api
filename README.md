@@ -11,6 +11,7 @@
 
 ## Usage
 ### Use the deployed api
+[Deployed api](https://myflixer-video-api.cyclic.app/)
 ```sh
 https://myflixer-video-api.cyclic.app/
 ```
@@ -219,6 +220,5 @@ Output >>>
 ### Routes that in development
 1. getDownloadLink
 2. getStreamingUrlByProvider
-4. getMoviesByCountry
 
-Im working hard to publish this feature soon :).
+Im working hard to publish this feature soon :)
